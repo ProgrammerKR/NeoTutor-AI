@@ -1,0 +1,5 @@
+{
+  "name": "NeoTutor AI",
+  "description": "An AI-powered EdTech application that transforms educational materials like PDFs into concise summaries, key concepts, flashcards, and quizzes to accelerate learning.",
+  "requestFramePermissions": []
+}
