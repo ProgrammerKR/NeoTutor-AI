@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { EducationalContent, DashboardView, HistoryItem, SharePayload } from '../types';
 import BookOpenIcon from './icons/BookOpenIcon';
@@ -8,7 +9,7 @@ import DownloadIcon from './icons/DownloadIcon';
 import ShareIcon from './icons/ShareIcon';
 import ChatBubbleIcon from './icons/ChatBubbleIcon';
 import Flashcard from './Flashcard';
-import Quiz from './Quiz';
+import QuizView from './QuizView';
 import ShareModal from './ShareModal';
 import Chat from './Chat';
 
@@ -189,7 +190,7 @@ const Dashboard: React.FC<DashboardProps> = ({ historyItem }) => {
                 <ShareIcon className="w-5 h-5" />
               </button>
             </div>
-            <Quiz quizItems={content.quiz} />
+            <QuizView quizItems={content.quiz} />
           </div>
         );
       case 'chat':
